@@ -198,7 +198,7 @@ class YouTubeDownloaderApp(ctk.CTk):
             link = Playlist(p_link)
             num_videos = len(link.video_urls)
         except Exception as e:
-            self.text_box.insert("end", f"\nError: {str(e)}\n")
+            self.text_box.insert("end", f"\nError: Enter a valid Playlist link!\n{str(e)}\n")
             self.text_box.see("end")
             self.is_downloading = False
             return
@@ -213,7 +213,7 @@ class YouTubeDownloaderApp(ctk.CTk):
                 thumbnail_image = self.load_thumbnail(thumbnail_url)
                 self.center_image.configure(image=thumbnail_image)
             except Exception as e:
-                self.text_box.insert("end", f"\nError: {str(e)}\n")
+                self.text_box.insert("end", f"\n{str(e)}\n")
                 self.text_box.see("end")
                 continue
 
