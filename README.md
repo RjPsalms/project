@@ -5,9 +5,9 @@
 #### Description:
 This is a simple YouTube downloader app built in Python using the the new CustomTkinter library for the GUI, and Pytube for fetching and downloading YouTube videos and playlists. No ads, simply caopy your link from Youtube then paste, then download the type you want; audio or video.
 
-    > This is my final project for CS50x, my 2nd CS50 course after finishing CS50p, this course is way harder since I have to learn a bit of everything, but still I ended up building what I'm already familiar with, the 'CustomTKinter GUI' and Python. I built this ahead of the course, for my personal use since I had been looking for a way to download playlist from Youtube before and haven't found a decent program till now. So this is more of a personal project. 
+> This is my final project for CS50x, my 2nd CS50 course after finishing CS50p, this course is way harder since I have to learn a bit of everything, but still I ended up building what I'm already familiar with, the 'CustomTKinter GUI' and Python. I built this ahead of the course, for my personal use since I had been looking for a way to download playlist from Youtube before and haven't found a decent program till now. So this is more of a personal project. 
     
-    > The biggest challenge here is once again the integration of the logic to the GUI, or in general, object-oriented-programming. The Pytube library is already very friendly, just a few lines of codes and you have your videos downloaded. What consumed my time in this project is bulding the user interface and integrating the logic of the code. Many things that seem easy in my mind took hours for me to implement, just the simple CANCEL and CLEAR buttons took me a day! But well, learning and building this on my own is rewarding nonetheless. I'm forever thankful to Harvard and to Professor David for this lesson of a lifetime for FREE! I hope some people would find this useful as well.
+> The biggest challenge here is once again the integration of the logic to the GUI, or in general, object-oriented-programming. The Pytube library is already very friendly, just a few lines of codes and you have your videos downloaded. What consumed my time in this project is bulding the user interface and integrating the logic of the code. Many things that seem easy in my mind took hours for me to implement, just the simple CANCEL and CLEAR buttons took me a day! But well, learning and building this on my own is rewarding nonetheless. I'm forever thankful to Harvard and to Professor David for this lesson of a lifetime for FREE! I hope some people would find this useful as well.
 
 
 ## Features
@@ -37,7 +37,7 @@ This is a simple YouTube downloader app built in Python using the the new Custom
 
 ## Screenshots
 
-![YT_Playlist downloader](images\YT_downloader.png)
+![YT_Playlist downloader]([images\YT_downloader.png](https://drive.google.com/file/d/1uV7WYfIiMNUiD0udrqZkX9Oy8AV2PnFI/view?usp=drive_link))
 
 
 ## Notes
