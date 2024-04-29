@@ -1,6 +1,6 @@
 # YouTube Playlist Downloader App
 
-#### Video Demo: 
+#### Video Demo: https://youtu.be/aSDjql_29Io
 
 #### Description:
 This is a simple YouTube downloader app built in Python using the the new CustomTkinter library for the GUI, and Pytube for fetching and downloading YouTube videos and playlists. No ads, simply caopy your link from Youtube then paste, then download the type you want; audio or video.
