@@ -159,6 +159,7 @@ class YouTubeDownloaderApp(ctk.CTk):
             file_name = f"{yt_video.title}{file_suffix}.{file_extension}"
             file_path = os.path.join(download_path, file_name)
             stream.download(output_path=download_path, filename=file_name)
+            self.text_box.insert("end", f"~ Downloaded successfully!\n")
         except Exception as e:
             self.text_box.insert("end", f"\nError: {str(e)}\n")
             self.text_box.see("end")
@@ -166,7 +167,7 @@ class YouTubeDownloaderApp(ctk.CTk):
         if self.cancel_flag:
             return
 
-        self.text_box.insert("end", f"~ Downloaded successfully!\n")
+        
         self.text_box.see("end")
         self.link_entry.delete(0, "end")
         self.cancel_button.configure(state="disabled")
